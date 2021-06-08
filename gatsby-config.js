@@ -10,6 +10,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
+        display: "standalone",
+        name: "Inspirience",
+        short_name: "InspiUX",
         icon: "src/images/icon.png",
       },
     },
