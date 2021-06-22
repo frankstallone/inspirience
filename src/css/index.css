@@ -7,3 +7,12 @@
     /* height to accomidate the notch */
   }
 }
+
+header,
+figure {
+  scroll-snap-align: start;
+}
+
+#scroll-snap {
+  scroll-snap-type: y mandatory;
+}
