@@ -8,11 +8,19 @@
   }
 }
 
-header,
-figure {
-  scroll-snap-align: start;
-}
+@layer utilities {
+  .snap-start {
+    scroll-snap-align: start;
+  }
+  .snap-y-mandatory {
+    scroll-snap-type: y mandatory;
+  }
 
-#scroll-snap {
-  scroll-snap-type: y mandatory;
+  .snap-start {
+    scroll-snap-align: start;
+  }
+
+  .snap-center {
+    scroll-snap-align: center;
+  }
 }
